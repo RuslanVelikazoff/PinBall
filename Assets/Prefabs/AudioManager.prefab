@@ -44,4 +44,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf1a06acc2741c4920ebbf33e2b3bf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Hit
+    clip: {fileID: 8300000, guid: c24d96151df07be4dbd84b187efc114c, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 969a03d101a044b46b1a787f7ae8c069, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: c1797dc504f15aa4e852ef7838a81cb1, type: 3}
+    volume: 0
+    loop: 1
+    source: {fileID: 0}

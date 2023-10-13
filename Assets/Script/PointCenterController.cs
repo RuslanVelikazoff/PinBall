@@ -38,7 +38,7 @@ public class PointCenterController : MonoBehaviour
 
 		GameManager.Instance.Score += score;
 		
-		//TODO: AudioManager.Instance.Play(SoundType.Hit);
+		AudioManager.instance.Play("Hit");
 	}
 
 	private IEnumerator ColorAnimation(float time, Color target)

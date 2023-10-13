@@ -56,6 +56,6 @@ public class GameManager : MonoBehaviour
 
 		BallController.Instance.gameObject.SetActive(false);
 
-		//TODO: AudioManager.Instance.Play(SoundType.GameOver);
+		AudioManager.instance.Play("GameOver");
 	}
 }
